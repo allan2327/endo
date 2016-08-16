@@ -2,5 +2,5 @@
     "appSecret": "7ebc86d08dc66a2a20fcd8b67c8d8aff",
     "pageAccessToken": "EAAM5MG3Bj5ABAN1juTfxnyp23SjkiVlYDyXgpwGxOgnAWeKeW3pcjT8wfj7WbxT1MbFDhZBflDyfDajpH87u5wLw31xIlz6Shis5DhyBv7cRHFME6lX4pQYU0D8ilT8U460ZC9DpysZBvVKoQrO8JiDdifaeiMhbax8DVoZCNwZDZD",
     "validationToken": "my_voice_is_my_password_verify_me",
-    "serverURL": "https://cryptic-earth-82788.herokuapp.com/"
+    "serverURL": "https://endobot.herokuapp.com/"
 }
