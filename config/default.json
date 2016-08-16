@@ -1,6 +1,6 @@
 {
-    "appSecret": "",
-    "pageAccessToken": "",
+    "appSecret": "5245ce6c38a4444c1854b3daab4004e5",
+    "pageAccessToken": "EAAYhCIlUgj4BAM7oKZCUKTjfzE5RZBbiijFeZAQCe5XxD8hexI8XWv0ZAZARZAUxDFYMLFCmDDmL9NkC0qEkBS1BJLpUKp0TKnpgBZC1uyNHKEEy5imD2XyGmqXzDdqH6hZBuS7SrjKyXcZAlGCRutntef0LlOdvQ3sCW3c0zkHsjCAZDZD",
     "validationToken": "my_voice_is_my_password_verify_me",
-    "serverURL": ""
+    "serverURL": "https://cryptic-earth-82788.herokuapp.com/"
 }
