@@ -17,10 +17,7 @@ const
   express = require('express'),
   https = require('https'),  
   request = require('request');
-  nutritionix = require('nutritionix')({
-    appId: '89b2a057',
-    appKey: '8bdfcf6398c7c4d6ab6407b92826264a'
-  }, false);
+
 
 var app = express();
 app.set('port', process.env.PORT || 5000);
