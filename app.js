@@ -237,6 +237,7 @@ function receivedAuthentication(event) {
 function receivedMessage(event) {
 
   console.log('message received, updating database.')
+  console.log(connection.connect());
   connection.query('SELECT * FROM endo_test', function(err, rows) {
     if(err) {
       console.log('There was an error connecting to the db');
@@ -291,6 +292,8 @@ function receivedMessage(event) {
   } else if (messageAttachments) {
     sendTextMessage(senderID, "Message with attachment received");
   }
+  console.log('ending db connect', connection.end());
+
 }
 
 
