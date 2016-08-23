@@ -1,5 +1,5 @@
 {
-  "name": "messenger-get-started",
+  "name": "endobot-messenger",
   "version": "1.0.0",
   "description": "Get started example for Messenger Platform",
   "main": "app.js",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/fbsamples/messenger-platform-samples.git"
   },
-  "author": "Facebook",
+  "author": "Matt Mahowald and Chris Fernandes",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.0",
