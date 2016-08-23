@@ -132,12 +132,19 @@ app.post('/webhook', function (req, res) {
  * (sendAccountLinking) is pointed to this URL. 
  * 
  */
+
+/* QUESTION: I'm not really sure what this authorize function does */
+
 app.get('/authorize', function(req, res) {
   var accountLinkingToken = req.query['account_linking_token'];
   var redirectURI = req.query['redirect_uri'];
 
+  console.log(req);
+
   // Authorization Code should be generated per user by the developer. This will 
   // be passed to the Account Linking callback.
+
+  /**** NOTE We definitely need to do something here */
   var authCode = "1234567890";
 
   // Redirect users to this URI on successful login
@@ -193,6 +200,7 @@ function receivedAuthentication(event) {
   var recipientID = event.recipient.id;
   var timeOfAuth = event.timestamp;
 
+  /***** NOTE: I'm pretty sure we actually need to do something here at some point *****/
   // The 'ref' field is set in the 'Send to Messenger' plugin, in the 'data-ref'
   // The developer can set this to an arbitrary value to associate the 
   // authentication callback with the 'Send to Messenger' click event. This is
