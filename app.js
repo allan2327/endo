@@ -25,12 +25,15 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.json({ verify: verifyRequestSignature }));
 app.use(express.static('public'));
 
-var db_config = {
-    host: 'us-cdbr-iron-east-04.cleardb.net',
-    user: 'b6d3f75cdecb68',
-    password: '05eeec66',
-    database: 'heroku_5d4c3a294a313fb'
+var dbConfig = {
+  host: 'us-cdbr-iron-east-04.cleardb.net',
+  user: 'b6d3f75cdecb68',
+  password: '05eeec66',
+  database: 'heroku_5d4c3a294a313fb'
 };
+
+var connection = mysql.createConnection(dbConfig);
+
 
 /*
  * Be sure to setup your config values before running this code. You can 
@@ -232,6 +235,14 @@ function receivedAuthentication(event) {
  * 
  */
 function receivedMessage(event) {
+
+  connection.query('SELECT 1', function(err, rows) {
+    if(err) {
+      console.log('There was an error connecting to the db');
+    }
+    console.log(rows);
+  });
+
   var senderID = event.sender.id;
   var recipientID = event.recipient.id;
   var timeOfMessage = event.timestamp;
