@@ -236,10 +236,12 @@ function receivedAuthentication(event) {
  */
 function receivedMessage(event) {
 
-  connection.query('SELECT 1', function(err, rows) {
+  console.log('message received, updating database.')
+  connection.query('SELECT * FROM endo_test', function(err, rows) {
     if(err) {
       console.log('There was an error connecting to the db');
     }
+    console.log('here is the update: ')
     console.log(rows);
   });
 
