@@ -1,0 +1,470 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"H",
+				"HEADERS"
+			],
+			[
+				"cron",
+				"cron_flag"
+			],
+			[
+				"folder",
+				"folder_path"
+			],
+			[
+				"ch",
+				"chdir"
+			],
+			[
+				"get",
+				"get_html"
+			],
+			[
+				"uplo",
+				"upload_to_gdrive"
+			],
+			[
+				"Sub",
+				"SUBHEAD_ID"
+			],
+			[
+				"HEAD",
+				"HEADLINE_ID"
+			],
+			[
+				"folde",
+				"folder_name"
+			],
+			[
+				"spanish",
+				"spanish_html"
+			],
+			[
+				"HT",
+				"HTML_TEMPLATE_END"
+			],
+			[
+				"HTM",
+				"HTML_TEMPLATE_END"
+			],
+			[
+				"html",
+				"htmlfile"
+			],
+			[
+				"HTML_TEM",
+				"HTML_TEMPLATE_START"
+			],
+			[
+				"wri",
+				"writerow"
+			],
+			[
+				"mai",
+				"main_span"
+			],
+			[
+				"ma",
+				"main_mid"
+			],
+			[
+				"main",
+				"main_low"
+			],
+			[
+				"json",
+				"json_content"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"clos",
+				"close_content"
+			],
+			[
+				"total",
+				"total_change"
+			],
+			[
+				"searc",
+				"search_body"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"str",
+				"StripHTML"
+			],
+			[
+				"strip",
+				"StripHTML"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"SublimeR",
+				"Build With: sublimerepl_build_system_hack"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: If Condition"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lightsail/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/lightsail/Library/Application Support/Sublime Text 3/Installed Packages/Color Highlighter.sublime-package",
+		"/Users/lightsail/Downloads/chart.svg",
+		"/Users/lightsail/Documents/code/messenger-platform-samples/node/nutritionix_lookup.py",
+		"/Users/lightsail/Documents/code/messenger-platform-samples/node/Procfile",
+		"/Users/lightsail/Documents/code/messenger-platform-samples/node/README.md",
+		"/Users/lightsail/Documents/code/messenger-platform-samples/node/config/default.json",
+		"/Users/lightsail/Documents/code/messenger-platform-samples/node/public/index.html",
+		"/Users/lightsail/Documents/code/Azure/news-for-kids/news-4-kids.py",
+		"/Users/lightsail/Documents/code/Azure/news-for-kids/.newsforkids_errorlog.txt",
+		"/Users/lightsail/Documents/code/Azure/news-for-kids/get-pip.py",
+		"/Users/lightsail/.bash_profile",
+		"/Users/lightsail/Downloads/2016 Territory Planning Current Customers.kml",
+		"/Users/lightsail/Downloads/Skeleton-2.0.4/index.html",
+		"/Users/lightsail/Downloads/favicon.png",
+		"/Users/lightsail/Downloads/Skeleton-2.0.4/css/normalize.css",
+		"/Users/lightsail/Documents/code/MongoDBU/chapter_2/element_operators_56959fced8ca393add3abe69/element_operators/elementOperators.js",
+		"/Users/lightsail/Downloads/20160730_3d_spanish.html",
+		"/Users/lightsail/Documents/code/MongoDBU/chapter_2/comparison_operators_56959fced8ca393add3abe61/comparison_operators/comparisonOperators.js",
+		"/Users/lightsail/Downloads/20160730_3d_spanish (1).html",
+		"/Users/lightsail/Documents/code/MongoDBU/chapter_2/login_logout_signup/login_logout_signup/blog.py",
+		"/Users/lightsail/Documents/code/MongoDBU/chapter_2/updating_documents_56959fced8ca393add3abe75/updating_documents/updatingDocuments.js",
+		"/Users/lightsail/Documents/code/MongoDBU/chapter_2/array_operators_56959fced8ca393add3abe5e/array_operators/arrayOperators.js",
+		"/Users/lightsail/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/lightsail/Documents/code/chapter_1_introduction.c46165d2a7bd.zip",
+		"/Users/lightsail/Library/Application Support/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/Users/lightsail/Documents/code/AWS/daily_email/src/gre_word.py",
+		"/Users/lightsail/Documents/code/AWS/daily_email/lib/word/2016-08-09-greword.html",
+		"//ls",
+		"/Users/lightsail/.bashrc",
+		"/Users/lightsail/Documents/code/Azure/news-for-kids/README.md",
+		"/Users/lightsail/Documents/code/Azure/sftp-config.json",
+		"/Users/lightsail/Documents/code/AWS/news-for-kids/news-4-kids.py",
+		"/Users/lightsail/Documents/code/AWS/daily_email/src/send_word.py",
+		"/Users/lightsail/Documents/code/AWS/daily_email/lib/lexicon.json",
+		"/Users/lightsail/Documents/code/AWS/daily_email/lib/email.txt",
+		"/Users/lightsail/Documents/code/AWS/news-for-kids/README.md",
+		"/Users/lightsail/Documents/code/AWS/sftp-config.json",
+		"/Users/lightsail/Documents/code/AWS/news-for-kids/email_chris.py",
+		"/Users/lightsail/Downloads/20160801_1a_starter_ideal.html",
+		"/Users/lightsail/Documents/code/AWS/news-for-kids/upload_to_drive.py",
+		"/Users/lightsail/Documents/code/AWS/news-for-kids/untitled.py",
+		"/Users/lightsail/Downloads/20160801_Bringing Manatees Back_Starter.epub",
+		"/Users/lightsail/Downloads/A1_20160228_A_12-year-old_Girl_Is_Facing_Criminal_Charges_For_Using_Certain_Emoji.epub",
+		"/Users/lightsail/Downloads/20160731_3d_spanish.html",
+		"/Users/lightsail/Documents/code/AWS/news-for-kids/src/news-4-kids.py",
+		"/Users/lightsail/Documents/code/AWS/code/news-for-kids/src/news-4-kids.py",
+		"/Users/lightsail/Documents/code/AWS/news-for-kids/src/untitled.py",
+		"/Users/lightsail/Documents/code/AWS/code/news-for-kids/src/untitled.py",
+		"/Users/lightsail/Documents/code/AWS/code/news-4-kids/src/upload_to_drive.py",
+		"/Users/lightsail/Documents/code/AWS/code/news-for-kids/news-for-kids.py",
+		"/Users/lightsail/Documents/code/AWS/code/news-4-kids/src/news-4-kids.py",
+		"/Users/lightsail/Documents/code/AWS/.bash_profile",
+		"/Users/lightsail/python/quickstart.py",
+		"/Users/lightsail/google.py",
+		"/Users/lightsail/client_secrets.json",
+		"/Users/lightsail/Downloads/client_secret_840806595158-sntm9lhiimtrovji6nfjkd5283i5i4hd.apps.googleusercontent.com.json",
+		"/Users/lightsail/Downloads/client_secret_834238135418-5jli78g4ogfj86ir8oh4de9pcipmsag3.apps.googleusercontent.com.json",
+		"/Users/lightsail/client_secret.json",
+		"/Users/lightsail/Downloads/¿Un buen gol_ ¿Qué piensas tú_.epub",
+		"/Users/lightsail/Documents/code/news.py",
+		"/Users/lightsail/Documents/ml/machine-learning-ex1/ex1/computeCost.m",
+		"/Users/lightsail/Documents/ml/machine-learning-ex1/ex1/normalEqn.m",
+		"/Users/lightsail/Documents/ml/machine-learning-ex1/ex1/gradientDescentMulti.m",
+		"/Users/lightsail/Documents/ml/machine-learning-ex1/ex1/featureNormalize.m",
+		"/Users/lightsail/Documents/ml/machine-learning-ex1/ex1/gradientDescent.m",
+		"/Users/lightsail/Documents/ml/machine-learning-ex1/ex1/ex1.m",
+		"/Users/lightsail/Downloads/projective_challenge/README",
+		"/Users/lightsail/output.txt",
+		"/Users/lightsail/Documents/code/python_projects/email.html",
+		"/Users/lightsail/Desktop/email.html",
+		"/Users/lightsail/face_eye_detect.py",
+		"/Users/lightsail/Desktop/untitled.py",
+		"/Users/lightsail/Documents/code/python_projects/html_gen.py",
+		"/Users/lightsail/Google Drive/LightSail HQ/Product Team/Intern Summer 2016/Competitive Landscape/src/scrape_utils.py",
+		"/Users/lightsail/Google Drive/LightSail HQ/Product Team/Intern Summer 2016/Competitive Landscape/src/products.csv",
+		"/Users/lightsail/Google Drive/LightSail HQ/Product Team/Intern Summer 2016/Competitive Landscape/src/output.txt",
+		"/Users/lightsail/Google Drive/LightSail HQ/Product Team/Intern Summer 2016/Competitive Landscape/src/products.csv.gsheet",
+		"/Users/lightsail/Google Drive/LightSail HQ/Product Team/Intern Summer 2016/Competitive Landscape/src/data.txt",
+		"/Users/lightsail/Downloads/products.html",
+		"/Users/lightsail/Google Drive/LightSail HQ/Product Team/Intern Summer 2016/Data Analytics/src/output.txt",
+		"/Users/lightsail/Google Drive/LightSail HQ/Product Team/Intern Summer 2016/Data Analytics/src/scrape_utils.py",
+		"/Users/lightsail/Documents/Data/src/scrape_utils.py",
+		"/Users/lightsail/Documents/Data/src/output.txt"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"000000",
+			"222222",
+			"000000",
+			"#FFFFFF",
+			"ba0f27",
+			"#",
+			"APP_ID",
+			"API_URL",
+			"URL",
+			"grep",
+			"<coordinates>.*</coordinates>",
+			"<address>.*</address>",
+			"<name>.*</name>",
+			"name",
+			"<name>",
+			"data",
+			".co",
+			"http",
+			"href",
+			"builder_systems",
+			"interpr",
+			"inter",
+			"auto_formatting_timeout",
+			"interp",
+			"inter",
+			"font",
+			"find",
+			"findn",
+			"importData",
+			"newSchoolData",
+			"reportType",
+			"createStuden",
+			"Logger",
+			" (series)",
+			"book",
+			"monster",
+			"(series)",
+			"series",
+			"(series)",
+			"email",
+			"emai",
+			"browser.",
+			"print",
+			"utilities",
+			"for",
+			"	",
+			"createStudentTab",
+			"email",
+			"exit",
+			"py-env",
+			".join",
+			"email_war",
+			"if cron",
+			"get_al",
+			"sys",
+			"Article",
+			"argparse",
+			"<h2>",
+			"<h1>",
+			"print",
+			"h1",
+			"URL",
+			"Really S",
+			"#",
+			"</div></div></div>",
+			"</div></div></div><div class=\"row space--sm\">",
+			"<h2 class=\"heading--light\"></h2><div class=\"textblock\">",
+			"lightsailed",
+			"regex",
+			"data-product-name",
+			"LightSail",
+			"write_to",
+			"products",
+			"product-reviews",
+			"/product-reviews",
+			"content",
+			"Overview"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 88.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 108.0
+	},
+	"pinned_build_system": "",
+	"project": "nutritionix_lookup.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"re",
+				"Azure/news-for-kids/README.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
