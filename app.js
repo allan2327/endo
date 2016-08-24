@@ -35,6 +35,18 @@ var dbConfig = {
 var connection = mysql.createConnection(dbConfig);
 
 
+connection.connect();
+
+console.log('attempting to connect...')
+connection.query('SELECT 1 + 1 AS solution', function(err, rows, fields) {
+  if (err) throw err;
+
+  console.log('The solution is: ', rows[0].solution);
+});
+
+connection.end();
+
+
 /*
  * Be sure to setup your config values before running this code. You can 
  * set them using environment variables or modifying the config file in /config.
@@ -236,15 +248,15 @@ function receivedAuthentication(event) {
  */
 function receivedMessage(event) {
 
-  console.log('message received, updating database.')
-  console.log(connection.connect());
-  connection.query('SELECT * FROM endo_test', function(err, rows) {
-    if(err) {
-      console.log('There was an error connecting to the db');
-    }
-    console.log('here is the update: ')
-    console.log(rows);
-  });
+  // console.log('message received, updating database.')
+  // console.log(connection.connect());
+  // connection.query('SELECT * FROM endo_test', function(err, rows) {
+  //   if(err) {
+  //     console.log('There was an error connecting to the db');
+  //   }
+  //   console.log('here is the update: ')
+  //   console.log(rows);
+  // });
 
   var senderID = event.sender.id;
   var recipientID = event.recipient.id;
