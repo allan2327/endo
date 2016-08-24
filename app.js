@@ -25,26 +25,26 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.json({ verify: verifyRequestSignature }));
 app.use(express.static('public'));
 
-var dbConfig = {
-  host: 'us-cdbr-iron-east-04.cleardb.net',
-  user: 'b6d3f75cdecb68',
-  password: '05eeec66',
-  database: 'heroku_5d4c3a294a313fb'
-};
+// var dbConfig = {
+//   host: 'us-cdbr-iron-east-04.cleardb.net',
+//   user: 'b6d3f75cdecb68',
+//   password: '05eeec66',
+//   database: 'heroku_5d4c3a294a313fb'
+// };
 
-var connection = mysql.createConnection(dbConfig);
+// var connection = mysql.createConnection(dbConfig);
 
 
-connection.connect();
+// connection.connect();
 
-console.log('attempting to connect...')
-connection.query('SELECT 1 + 1 AS solution', function(err, rows, fields) {
-  if (err) throw err;
+// console.log('attempting to connect...')
+// connection.query('SELECT 1 + 1 AS solution', function(err, rows, fields) {
+//   if (err) throw err;
 
-  console.log('The solution is: ', rows[0].solution);
-});
+//   console.log('The solution is: ', rows[0].solution);
+// });
 
-connection.end();
+// connection.end();
 
 
 /*
